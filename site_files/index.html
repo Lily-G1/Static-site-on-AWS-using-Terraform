@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <title>Portfolio Site</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Lilian G</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO!</h1>
+                    
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/meee5.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/meee5.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">My name is Lilian Galadima</h2>
+                        <!-- <span class="about__profession">Cloud/DevOps Engineer</span> -->
+                        <p class="about__text">I am a Cloud & DevOps Engineer with a focus on delivery using Amazon Web Services (AWS) and Digital Ocean. I enjoy creating infrastructure in an automated manner, making the software development cycle swift and highly efficient.<br><br>My goal for any organisation is to integrate and improve its development and business/I.T operations processes by streamlining the building, testing and maintenance of resources which allow rapid development and delivery of software.</p>
+
+                        <div class="about__social">
+                            <a href="https://linkedin.com/in/liliangaladima/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/Lily-G1/" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://liliangaladima.hashnode.dev/" class="about__social-icon"><i class='bx bxl-blogger' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Cloud Platforms</h3>
+                        <span class="skills__name">AWS</span>
+                        <span class="skills__name">MS Azure</span>
+                        <span class="skills__name">Google Cloud</span>
+                        <span class="skills__name">Digital Ocean</span>
+
+                        <h3 class="skills__subtitle">DevOps</h3>
+                        <span class="skills__name">Terraform</span>
+                        <span class="skills__name">Ansible</span>
+                        <span class="skills__name">Docker</span>
+                        <span class="skills__name">Kubernetes</span>
+                        <!-- <span class="skills__name">Jenkins</span> -->
+                        
+                        <h3 class="skills__subtitle">Scripting & Development</h3>
+                        <span class="skills__name">Linux Administration</span>
+                        <span class="skills__name">Bash Scripting</span>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">HTML & CSS</span>
+                        <span class="skills__name">Git & GitHub</span>
+                        <span class="skills__name">Vagrant</span>
+                        <span class="skills__name">VS Code</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill44.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/sample-voting-app.png" alt="architecture of a basic voting application">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/Lily-G1/k8s-voting-app" class="portfolio__link-name">Go to project</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">Kubernetes: Deploying a voting application with multiple components</h3>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/laravel-app-2 (1).png" alt="">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/Lily-G1/backend-laravel-app-with-docker-compose" class="portfolio__link-name">Go to project</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">Multi-container laravel application with Docker Compose</h3>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/terr-ansible-project.png" alt="AWS-terraform-ansible-architecture">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/Lily-G1/aws-infrastructure-with-terraform-ansible" class="portfolio__link-name">Go to project</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">AWS environment with Terraform and Ansible</h3>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/my_vpc2_ansible(1).png" alt="architecture of AWS infrastructure configured with Ansible">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/Lily-G1/aws-infrasctructure-with-ansible" class="portfolio__link-name">Go to project</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">AWS & Ansible: Load balanced private EC2s in a VPC using Ansible configuration</h3>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/ans_laravel2.png" alt="ansible & laravel logos">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/Lily-G1/laravel-app-with-ansible" class="portfolio__link-name">Go to project</a>
+                        </div>
+                        <br>
+                        <h3 class="h3 blog-item-title">Deploying a backend laravel application with Ansible</h3>
+                    </div>
+  
+                </div>
+            </section>
+
+            <!--===== BLOG =====-->
+            <section class="portfolio section" id="blog">
+                <h2 class="section-title">Blog</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/my_vpc2.png" alt="Blog post thumbnail">                     
+
+                        <div class="portfolio__link">
+                            <a href="https://liliangaladima.hashnode.dev/aws-deploying-nginx-php-on-private-ec2-instances-sitting-behind-a-load-balancer" class="portfolio__link-name">Read Post</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">Deploy Nginx on private EC2 Instances behind Load Balancer</h3>
+                           <p class="blog-text">Use an application load balancer to route traffic requests to private instances configured with the Nginx web server</p>
+                    </div>
+                    
+                    <div class="portfolio__img">
+                        <img src="assets/img/aws_logo.png" alt="Blog post thumbnail">
+                        
+                        <div class="portfolio__link">
+                            <a href="https://liliangaladima.hashnode.dev/create-a-custom-virtual-private-cloud-vpc-on-aws" class="portfolio__link-name">Read Post</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">Create Custom Virtual Private Cloud on AWS</h3>
+                            <p class="blog-text">Steps to creating a custom VPC with public and private subnets, an internet gateway and route tables</p>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/linux.jpg" alt="Blog post thumbnail">
+
+                        <div class="portfolio__link">
+                            <a href="https://liliangaladima.hashnode.dev/the-linux-operating-system" class="portfolio__link-name">Read Post</a>
+                        </div>
+                        <h3 class="h3 blog-item-title">The Linux Operating System</h3>
+                            <p class="blog-text">As a cloud professional, you MUST have knowledge of the Linux operating system...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">anyagaladima@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+234 811-6844-664</span>
+
+                        <h3 class="contact__subtitle">LOCATION</h3>
+                        <span class="contact__text">Abuja, Nigeria</span>
+
+                        <h3 class="contact__subtitle">FOLLOW</h3>
+                        <a href="https://linkedin.com/in/liliangaladima/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/Lily-G1/" class="footer__social"><i class='bx bxl-github' ></i></a>
+                        <a href="https://twitter.com/Anya_Lilyy" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Submit" class="contact__button">
+                    </form>
+                    
+                </div>
+                
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#blog" class="footer__link">Blog</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
