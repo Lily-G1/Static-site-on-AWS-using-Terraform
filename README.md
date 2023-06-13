@@ -8,4 +8,4 @@ $ terraform init
 $ terraform plan  
 $ terraform apply  
 
-NOTE: The folder 'site_files' will contain your website's documents    
+NOTE: The folder 'site_files' will contain your website's source documents    
